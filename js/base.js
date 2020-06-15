@@ -14,6 +14,9 @@ $( document ).ready(function() {
       pagination: {
         el: '.swiper-pagination',
       },
+      autoplay: {
+        delay: 1000,
+      },
  });
 
     $( "h1" ).click(function(){
