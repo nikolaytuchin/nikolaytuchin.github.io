@@ -17,6 +17,9 @@ $( document ).ready(function() {
       autoplay: {
         delay: 2000,
       },
+      mousewheel: {
+        invert: true,
+      },
  });
 
     $( "#clickID" ).click(function(){
