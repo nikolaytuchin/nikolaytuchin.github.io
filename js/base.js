@@ -11,4 +11,4 @@ function doFunction() { // функция привязанная к клику �
   alert('Да, это работает!');
 }
 
-document.getElementsByTagName('h1')[0].style.color="pink";
+h1.style.cssText = 'color: pink;';
