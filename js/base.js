@@ -19,7 +19,7 @@ $( document ).ready(function() {
       },
  });
 
-    $( "h1" ).click(function(){
+    $( "#clickID" ).click(function(){
         alert('Не делай этого больше! Ок?');
     });
     
