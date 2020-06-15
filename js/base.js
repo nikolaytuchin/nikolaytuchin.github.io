@@ -15,7 +15,7 @@ $( document ).ready(function() {
         el: '.swiper-pagination',
       },
       autoplay: {
-        delay: 1000,
+        delay: 2000,
       },
  });
 
