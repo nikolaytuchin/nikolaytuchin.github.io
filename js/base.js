@@ -16,7 +16,9 @@ $( document ).ready(function() {
       },
  });
 
-
- document.h1.classList.add('article');
+    $( "h1" ).click(function(){
+        alert('Не делай этого больше! Ок?');
+    });
+    
 }); 
 
