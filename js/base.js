@@ -1,4 +1,5 @@
- var swiper = new Swiper('.swiper-container', {
+$( document ).ready(function() {
+    var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
@@ -16,4 +17,6 @@
  });
 
 
-document.h1.classList.add('article');
+ document.h1.classList.add('article');
+}); 
+
