@@ -10,3 +10,5 @@ document.addEventListener('DOMContentLoaded', function() { // когда вес�
 function doFunction() { // функция привязанная к клику на кнопку
   alert('Да, это работает!');
 }
+
+document.getElementsByTagName('h1')[0].style.color="pink";
