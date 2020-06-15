@@ -20,6 +20,10 @@ $( document ).ready(function() {
       mousewheel: {
         invert: true,
       },
+      keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+     },
  });
 
     $( "#clickID" ).click(function(){
