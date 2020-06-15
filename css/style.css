@@ -18,6 +18,15 @@ body {
   height: 300px;
 }
 
+.flex-box {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
 .h1 {
   cursor: pointer;
   text-align: center;
